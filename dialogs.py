@@ -64,7 +64,7 @@ class RequestDialog(Gtk.Dialog):
         try:
             parsed = ast.literal_eval(lit_val)
 
-            self.listmodel.append([type(parsed).__name__, str(parsed)])
+            self.listmodel.append([type(parsed).__name__, lit_val])
         except:
             pass
 

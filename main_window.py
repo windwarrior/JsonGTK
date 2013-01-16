@@ -3,6 +3,7 @@ from dialogs import RequestDialog
 from widgets import CloseLabel
 from models import JSONRequest
 from pages import JSONResultPage
+import ast
 
 GLib.threads_init()
 
